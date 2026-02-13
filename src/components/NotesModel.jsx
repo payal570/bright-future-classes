@@ -29,14 +29,14 @@ export default function NotesModel({ open, onClose }) {
         <div className="space-y-3">
           <button
             onClick={goToClass10}
-            className="w-full bg-green-600 text-white py-2 rounded"
+            className="w-full bg-gray-200 py-2 rounded"
           >
             Class 10
           </button>
 
           <button
           onClick={() => setShowJoinLinks(!showJoinLinks)}
-          className="w-full bg-gray-200 py-2 rounded mb-2"
+          className="w-full py-2 bg-green-600 text-white rounded mb-2"
         >
           Class 11–12 
         </button>
