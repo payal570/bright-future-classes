@@ -38,14 +38,14 @@ export default function NotesModel({ open, onClose }) {
           onClick={() => setShowJoinLinks(!showJoinLinks)}
           className="w-full bg-gray-200 py-2 rounded mb-2"
         >
-          Class 11–12 (Coming Soon)
+          Class 11–12 
         </button>
 
         {/* Dropdown */}
         {showJoinLinks && (
           <div className="border rounded p-3 space-y-2">
             <a
-              href="https://t.me/https://t.me/bc1_4"
+              href="https://t.me/bc1_4"
               target="_blank"
               className="block text-center bg-blue-500 text-white py-2 rounded"
             >
